@@ -43,24 +43,24 @@ export default function Home() {
             </div>
 
             <div className="hidden md:flex items-center space-x-8">
-              <a
+              {/* <a
                 href="#features"
                 className="text-gray-600 hover:text-gray-900 transition-colors"
               >
                 Features
-              </a>
+              </a> */}
               {/* <a
                 href="#testimonials"
                 className="text-gray-600 hover:text-gray-900 transition-colors"
               >
                 Testimonials
               </a> */}
-              <a
+              {/* <a
                 href="#contact"
                 className="text-gray-600 hover:text-gray-900 transition-colors"
               >
                 Contact
-              </a>
+              </a> */}
             </div>
 
             <Button
@@ -68,7 +68,7 @@ export default function Home() {
               className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700"
             >
               <a
-                href="https://calendly.com/cowoka/demo"
+                href="https://calendly.com/cowoka/cowoka-product-demo"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -113,7 +113,7 @@ export default function Home() {
                   className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white px-8 py-3"
                 >
                   <a
-                    href="https://calendly.com/cowoka/demo"
+                    href="https://calendly.com/cowoka/cowoka-product-demo"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -130,7 +130,7 @@ export default function Home() {
               <div className="flex items-center space-x-6 text-sm text-gray-600">
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="h-4 w-4 text-green-500" />
-                  <span>3-week free trial</span>
+                  <span>1-month free trial</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="h-4 w-4 text-green-500" />
@@ -509,7 +509,7 @@ export default function Home() {
                 className="bg-white text-amber-600 hover:bg-gray-100 px-8 py-3"
               >
                 <a
-                  href="https://calendly.com/cowoka/demo"
+                  href="https://calendly.com/cowoka/cowoka-product-demo"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -522,7 +522,7 @@ export default function Home() {
             <div className="flex items-center justify-center space-x-6 text-sm text-amber-100">
               <div className="flex items-center space-x-2">
                 <CheckCircle className="h-4 w-4" />
-                <span>3-week free trial</span>
+                <span>1-month free trial</span>
               </div>
               <div className="flex items-center space-x-2">
                 <CheckCircle className="h-4 w-4" />
@@ -589,7 +589,7 @@ export default function Home() {
                 className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700"
               >
                 <a
-                  href="https://calendly.com/cowoka/demo"
+                  href="https://calendly.com/cowoka/cowoka-product-demo"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -601,7 +601,7 @@ export default function Home() {
 
           <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © 2024 Cowoka. All rights reserved.
+              © 2025 Cowoka. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm text-gray-400">
               <a href="#" className="hover:text-white transition-colors">
