@@ -127,18 +127,18 @@ export default function Home() {
                 </Button> */}
               </div>
 
-              <div className="flex items-center space-x-6 text-sm text-gray-600">
-                <div className="flex items-center space-x-2">
+              <div className="flex flex-wrap gap-y-2 justify-center md:justify-start md:flex-nowrap items-center space-x-6 text-sm text-gray-600">
+                <div className="flex   items-center space-x-2">
                   <CheckCircle className="h-4 w-4 text-green-500" />
-                  <span>1-month free trial</span>
+                  <span className="text-nowrap">1-month free trial</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="h-4 w-4 text-green-500" />
-                  <span>No credit card required</span>
+                  <span className="text-nowrap">No credit card required</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="h-4 w-4 text-green-500" />
-                  <span>24/7 support</span>
+                  <span className="text-nowrap">24/7 support</span>
                 </div>
               </div>
             </div>
@@ -519,18 +519,18 @@ export default function Home() {
               </Button>
             </div>
 
-            <div className="flex items-center justify-center space-x-6 text-sm text-amber-100">
+            <div className="flex flex-wrap gap-y-2  justify-center md:flex-nowrap md:justify-center  items-center space-x-6 text-sm text-amber-100">
               <div className="flex items-center space-x-2">
                 <CheckCircle className="h-4 w-4" />
-                <span>1-month free trial</span>
+                <span className="text-nowrap">1-month free trial</span>
               </div>
               <div className="flex items-center space-x-2">
                 <CheckCircle className="h-4 w-4" />
-                <span>No setup fees</span>
+                <span className="text-nowrap">No setup fees</span>
               </div>
               <div className="flex items-center space-x-2">
                 <CheckCircle className="h-4 w-4" />
-                <span>Cancel anytime</span>
+                <span className="text-nowrap">Cancel anytime</span>
               </div>
             </div>
           </div>
